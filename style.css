@@ -1,0 +1,347 @@
+body {
+  background: -webkit-gradient(linear, left top, right bottom, from(#884488), to(#9f97e8));
+  background: -o-linear-gradient(top left, #884488, #9f97e8);
+  background: linear-gradient(to bottom right, #884488, #9f97e8);
+}
+
+.slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  max-height: 500px;
+}
+
+.menu {
+  background-color: #cb15b0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 0;
+  padding: 10px;
+  border-radius: 0;
+}
+
+nav li {
+  margin: 0;
+}
+
+nav li a {
+  display: block;
+  padding: 5px;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+
+nav li a:hover {
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  text-decoration: underline;
+}
+
+header {
+  margin-top: 50px;
+  background-image: url('bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  background-position: center;
+}
+
+header h1 {
+  display: inline-block;
+  background-color: #fba9fe;
+  border-radius: 25px;
+  padding: 25px;
+  font-size: 80px;
+  margin: 12vh;
+}
+
+p {
+  border: 2px solid #9370DB;
+  padding: 10px;
+  background-color: #e6e6faa8;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: justify;
+  font-size: 28px;
+  text-indent: 50px;
+}
+
+.plot p {
+  max-height: 50vh;
+  height: 94%;
+}
+
+h2 {
+  background-color: #fba9fe;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 48px;
+}
+
+ul {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#9c27b0), to(#fba9fe));
+  background-image: -o-linear-gradient(top left, #9c27b0, #fba9fe);
+  background-image: linear-gradient(to bottom right, #9c27b0, #fba9fe);
+  border-radius: 20px;
+  padding: 10px;
+  display: inline-block;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body {
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
+.slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.slider img.active {
+  opacity: 1;
+}
+
+ul {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.plot_content {
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.plot_content img {
+  max-width: 50vw;
+  height: 50vh;
+}
+
+.content_news div {
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.content_news div img {
+  max-width: 50vw;
+  height: 50vh;
+}
+
+.content_news div p {
+  margin-top: 0;
+  height: 93%;
+}
+
+.popular ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.popular ul li {
+  max-width: 33vw;
+}
+
+.popular ul li img {
+  height: 30vh;
+  margin-bottom: 15px;
+}
+
+.popular ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.link_film {
+  background-color: #fba9fe;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 40px;
+  position: relative;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  -webkit-animation-name: upDownEl;
+          animation-name: upDownEl;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes upDownEl {
+  0% {
+    top: -10px;
+  }
+
+  50% {
+    top: 0;
+  }
+
+  100% {
+    top: -10px;
+  }
+}
+
+@keyframes upDownEl {
+  0% {
+    top: -10px;
+  }
+
+  50% {
+    top: 0;
+  }
+
+  100% {
+    top: -10px;
+  }
+}
